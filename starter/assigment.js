@@ -38,6 +38,20 @@ else if (numNeighbours > 1) {
 else if (numNeighbours > 1) {
     console.log('more than 1');
 }
+else if (numNeighbours > 1) {
+    console.log('more than 1');
+}
+else if (numNeighbours > 1) {
+    console.log('more than 1');
+}
+else if (numNeighbours > 1) {
+    console.log('more than 1');
+}
+else if (numNeighbours > 1) {
+    console.log('more than 1');
+}
 else {
     console.log(' no borders');
 }
+
+
