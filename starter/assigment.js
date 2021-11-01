@@ -43,3 +43,4 @@ console.log(averagePop);
 console.log(averagePop);
 console.log(averagePop);
 console.log(averagePop);
+console.log(halfPopulation);
