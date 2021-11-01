@@ -37,3 +37,9 @@ else {
     const portugalPopComp = averagePop - popPortugal;
     console.log(`Portugal's population is ${portugalPopComp} million below average`);
 }
+console.log(averagePop);
+console.log(averagePop);
+console.log(averagePop);
+console.log(averagePop);
+console.log(averagePop);
+console.log(averagePop);
