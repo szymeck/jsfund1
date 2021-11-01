@@ -26,21 +26,14 @@ else {
     console.log(`Portugal's population is ${portugalPopComp} million below average`);
 }
 
-const averagePop = 10;
-const averageCompare = population < averagePop;
-console.log(halfPopulation, halfPopulationPlus, countryCompare, averageCompare);
+const numNeighbours = Number(prompt('How many neighbour countries does your country have'));
 
-if (popPortugal > averagePop) {
-    console.log(`Portugal's population is above average`);
+if (numNeighbours === 1) {
+    console.log('only 1 border');
+}
+else if (numNeighbours > 1) {
+    console.log('more than 1');
 }
 else {
-    const portugalPopComp = averagePop - popPortugal;
-    console.log(`Portugal's population is ${portugalPopComp} million below average`);
+    console.log(' no borders');
 }
-console.log(averagePop);
-console.log(averagePop);
-console.log(averagePop);
-console.log(averagePop);
-console.log(averagePop);
-console.log(averagePop);
-console.log(halfPopulation);
