@@ -126,7 +126,7 @@ const szymonNew = `I'm ${firstName}, a ${year - birthDate} year old ${job}`;
 console.log(szymonNew);
 
 console.log(`asadad`);
-*/
+
 const age = 15;
 
 if (age >= 18) {
@@ -176,34 +176,53 @@ console.log(Number('Jonas'));
 console.log(String(23));
 
 //type ceorsion
-console.log('I am ' + 23 + ' years old');
-console.log(Number('190') + Number('9'));
+// console.log('I am ' + 23 + ' years old');
+// console.log(Number('190') + Number('9'));
 
 
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean('Jonas'));
-console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean(''));
 
 
-const money = 10;
-if (money) {
-    console.log('dont spand it all');
+// const money = 10;
+// if (money) {
+//     console.log('dont spand it all');
+// }
+// else {
+//     console.log('get a job');
+// };
+
+// let iq;
+// if (iq >= 100) {
+//     console.log('you are smart');
+// }
+// else {
+//     console.log('you are stupid');
+// }
+*/
+const age = 18;
+if (age === 18) console.log('you are adult');
+
+if (age === 18) console.log('you are adult');
+
+const favorite = Number(prompt("what your fav number"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+    console.log('great its a 23');
+}
+else if (favorite === 7) {
+    console.log('7 is also good');
 }
 else {
-    console.log('get a job');
-};
-
-let iq;
-if (iq >= 100) {
-    console.log('you are smart');
-}
-else {
-    console.log('you are stupid');
+    console.log('its not 7 or 23');
 }
 
-
+if (favorite !== 23) console.log('why not 23 ');
 
 
 
