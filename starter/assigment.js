@@ -26,32 +26,22 @@ else {
     console.log(`Portugal's population is ${portugalPopComp} million below average`);
 }
 
-const numNeighbours = Number(prompt('How many neighbour countries does your country have'));
+// const numNeighbours = Number(prompt('How many neighbour countries does your country have'));
 
-if (numNeighbours === 1) {
-    console.log('only 1 border');
-}
-else if (numNeighbours > 1) {
-    console.log('more than 1');
-}
+// if (numNeighbours === 1) {
+//     console.log('only 1 border');
+// }
+// else if (numNeighbours > 1) {
+//     console.log('more than 1');
+// }
+// else {
+//     console.log(' no borders');
+// }
 
-else if (numNeighbours > 1) {
-    console.log('more than 1');
-}
-else if (numNeighbours > 1) {
-    console.log('more than 1');
-}
-else if (numNeighbours > 1) {
-    console.log('more than 1');
-}
-else if (numNeighbours > 1) {
-    console.log('more than 1');
-}
-else if (numNeighbours > 1) {
-    console.log('more than 1');
+if (language == 'english' && population < 50 && !isIsland) {
+    console.log('you should live in poland');
 }
 else {
-    console.log(' no borders');
+    console.log('dont live here');
 }
-
 

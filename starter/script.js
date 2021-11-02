@@ -202,13 +202,13 @@ console.log(String(23));
 // else {
 //     console.log('you are stupid');
 // }
-*/
+
 const age = 18;
 if (age === 18) console.log('you are adult');
 
 if (age === 18) console.log('you are adult');
 
-const favorite = Number(prompt("what your fav number"));
+ const favorite = Number(prompt("what your fav number"));
 console.log(favorite);
 console.log(typeof favorite);
 
@@ -223,9 +223,20 @@ else {
 }
 
 if (favorite !== 23) console.log('why not 23 ');
+*/
+const hasDriverlicense = true;
+const hasGooodVision = true;
+const isTired = false;
+console.log(hasDriverlicense && hasGooodVision);
+console.log(hasDriverlicense || hasGooodVision);
+console.log(!hasGooodVision);
 
-
-
+if (hasDriverlicense && hasGooodVision && !isTired) {
+    console.log('Sarah is able to drive');
+}
+else {
+    console.log('not able to drive');
+}
 
 
 
