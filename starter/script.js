@@ -237,8 +237,52 @@ if (hasDriverlicense && hasGooodVision && !isTired) {
 else {
     console.log('not able to drive');
 }
+const day = 'sunday';
+switch (day) {
+    case 'monday':
+        console.log('day1 wank');
+        break;
+    case 'thueasday':
+        console.log('day2 wank');
+        break;
+    case 'wednesday':
+    case 'thurstay':
+        console.log("wank day 3 and 4");
+        break;
+    case 'friday':
+        console.log('wank day 5');
+        break
+    case 'saturday':
+    case 'sunday':
+        console.log('weekend wank');
+        break;
+    default:
+        console.log('now wank day');
 
+}
+if (day === 'monday') {
+    console.log('day1 wank');
+}
+else if (day === 'thueasday') {
+    console.log('day2 wank');
+}
+else if (day === 'wednesday' || day === 'thurstay') {
+    console.log('day 3 and 4 wank');
+}
+else if (day === 'friday') {
+    console.log('day5 wank');
+}
+else if (day === 'saturday' || day === 'sunday') {
+    console.log(' weekend wank');
+}
+else {
+    console.log('invalid');
+}
 
+const age = 23;
+age >= 18 ? console.log('drink wine nice') :
+    console.log('drink water');
 
-
-
+const bill = 430;
+const tip = (bill >= 50 && bill <= 300) ? (bill * (15 / 100)) : (bill * (20 / 100));
+console.log(`The bill was${bill}, the tip was ${tip} and the total value is ${bill + tip}`);
